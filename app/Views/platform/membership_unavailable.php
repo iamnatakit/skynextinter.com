@@ -1,0 +1,1 @@
+<section class="panel"><h2>เว็บไซต์โปรไฟล์นี้อยู่ระหว่างต่ออายุ</h2><p>เจ้าของโปรไฟล์สามารถเข้าสู่ระบบเพื่อตรวจสอบสิทธิ์และต่ออายุ Platform ได้</p><div class="actions"><a class="button" href="<?= site_url('login') ?>">เข้าสู่ระบบ</a><a class="button secondary" href="<?= site_url('contact-company') ?>">ติดต่อส่วนกลาง</a></div></section>

@@ -1,0 +1,1 @@
+<p class="sn-product-status"><?= \App\Libraries\Platform\AnnualWebsitePackage::matches($product) ? 'บริการเว็บไซต์ · ไม่มีคะแนน PV' : ((int)($product['pv']??0)>0 ? number_format((int)$product['pv']).' PV / หน่วย' : 'PV: รอกำหนด') ?></p>

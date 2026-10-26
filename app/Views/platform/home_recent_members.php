@@ -1,0 +1,4 @@
+<?php $recentMembers=(new \App\Libraries\Platform\PublicSiteStats(new \App\Libraries\Platform\Store()))->recentMembers(); ?>
+<section id="sn-recent-members" class="sn-recent-members" aria-labelledby="sn-recent-members-title"><div class="sn-recent-inner"><span>WELCOME TO SKYNEXT INTER</span><h2 id="sn-recent-members-title">ยินดีต้อนรับสมาชิกใหม่ล่าสุด</h2><p>ร่วมเติบโตกับเครือข่ายสกายเน็กซ์ · สมาชิกใหม่ 10 คนล่าสุด</p>
+<?php if(!$recentMembers): ?><p>ร่วมเป็นส่วนหนึ่งของครอบครัวสกายเน็กซ์</p><?php else: ?><ol class="sn-recent-grid"><?php foreach($recentMembers as $recentMember): ?><li><span class="sn-recent-initial" aria-hidden="true"><?= esc(mb_substr($recentMember['display_name'],0,1)) ?></span><div><strong><?= esc($recentMember['display_name']) ?></strong><small>สมาชิก <?= esc($recentMember['referral_code']) ?></small><span class="sn-province-tag"><?= esc($recentMember['province']) ?></span></div></li><?php endforeach ?></ol><?php endif ?>
+</div></section>

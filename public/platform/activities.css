@@ -1,0 +1,18 @@
+.sn-opp{background:#fff;border:1px solid #dfe7dd;border-radius:20px;overflow:hidden;margin-bottom:40px;scroll-margin-top:100px;color:#213d30}
+.sn-opp-heading{padding:36px 36px 24px;background:linear-gradient(130deg,#f3f7ed,#fffaf0)}
+.sn-opp-eyebrow{color:#967027;font-size:12px;font-weight:700;letter-spacing:1.5px}
+.sn-opp h2{color:#164630;font-size:clamp(28px,3.4vw,42px);line-height:1.4;margin:12px 0}
+.sn-opp-heading p{max-width:900px;line-height:1.9;font-size:16px;margin:12px 0}
+.sn-opp-heading .sn-opp-tagline{font-size:clamp(18px,2vw,24px);font-weight:600;color:#92702d}
+.sn-opp-poster{margin:0;padding:0 28px}.sn-opp-poster img{width:100%;height:auto;display:block;border-radius:12px}.sn-opp-poster a{display:block}
+.sn-opp-poster figcaption{font-size:13px;color:#68796e;margin-top:10px;line-height:1.7}
+.sn-opp-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;padding:28px 36px 36px;align-items:start}
+.sn-opp h3{font-size:21px;color:#164630;margin:0 0 16px}.sn-opp-details dl{margin:0}.sn-opp-details dl>div{padding:12px 0;border-bottom:1px solid #e5ebe1;display:grid;grid-template-columns:minmax(130px,.9fr) 1.1fr;gap:12px}
+.sn-opp dt{font-weight:600}.sn-opp dd{margin:0;overflow-wrap:anywhere}.sn-opp dd a{color:#165b43;text-decoration:underline}
+.sn-opp-note{font-size:14px;color:#66756a;line-height:1.8;margin:18px 0}.sn-opp .button{white-space:normal;text-align:center;max-width:100%}
+.sn-opp-topics ul{margin:0;padding-left:22px;font-size:16px;line-height:1.9}.sn-opp-topics li{padding:5px 0}.sn-opp-audience{background:#f2f6ed;padding:20px;border-radius:12px;margin-top:24px}.sn-opp-audience p{line-height:1.9;margin:0;font-size:16px}
+.sn-opp-reward-rules{padding-left:26px;margin:0;font-size:17px;line-height:1.9}.sn-opp-reward-rules li{padding:12px 0;border-bottom:1px solid #e5ebe1}
+.sn-trip-days p{font-size:16px;line-height:1.9;margin:0}
+@media(max-width:700px){.sn-opp-grid{grid-template-columns:1fr;padding:24px 18px;gap:28px}.sn-opp-heading{padding:24px 18px 18px}.sn-opp-poster{padding:0 12px}.sn-opp-details dl>div{grid-template-columns:1fr;gap:4px}}
+.sn-trip-schedule{padding:32px 36px}.sn-trip-days{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.sn-trip-days>section{padding:24px;background:#f4f7ef;border:1px solid #dfe7d7;border-radius:14px;min-width:0}.sn-trip-day{display:inline-block;padding:5px 12px;border-radius:20px;background:#164630;color:#fff;font-weight:600}.sn-trip-days h4{font-size:19px;line-height:1.6;color:#164630;margin:16px 0 12px}.sn-trip-days ul{padding-left:20px;line-height:1.9;font-size:16px;margin:0}.sn-trip-days li{margin-bottom:9px}.sn-trip-preparation{margin:0 36px 12px;border:1px solid #dfe7d7;border-radius:12px;overflow:hidden}.sn-trip-preparation summary{padding:18px;cursor:pointer;color:#164630;font-weight:600;background:#f6f8f2}.sn-trip-preparation .sn-opp-poster{padding:16px}
+@media(max-width:850px){.sn-trip-days{grid-template-columns:1fr}.sn-trip-schedule{padding:24px 18px}.sn-trip-preparation{margin:0 18px 12px}}

@@ -1,0 +1,7 @@
+.sn-profile-photo{display:inline-block;width:96px;height:96px;object-fit:cover;border-radius:50%;border:3px solid #d5ad58;background:#edf4e9;flex-shrink:0}
+.sn-profile-initial{display:inline-flex;align-items:center;justify-content:center;font-size:36px;color:#165b43}
+.affiliate-promo-copy>.sn-profile-photo{display:block;margin-top:24px}.affiliate-promo-copy>.sn-profile-initial{display:flex}
+.sn-referrer-card{display:flex;align-items:center;gap:14px;padding:12px 24px;background:#f1f6ed;border-bottom:1px solid #dbe4d5;color:#164630;flex-wrap:wrap}
+.sn-referrer-card .sn-profile-photo{width:52px;height:52px;border-width:2px;font-size:24px}
+.sn-referrer-card a{color:#164630;text-decoration:underline}.sn-referrer-card .sn-referrer-link{margin-left:auto}
+.mw-photo-editor{display:flex;gap:24px;align-items:center;flex-wrap:wrap}.mw-photo-editor form{flex:1;min-width:200px}

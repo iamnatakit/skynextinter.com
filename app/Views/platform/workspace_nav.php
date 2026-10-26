@@ -1,0 +1,4 @@
+<link rel="stylesheet" href="<?= base_url('platform/member-workspace.css?v='.filemtime(FCPATH.'platform/member-workspace.css')) ?>">
+<div class="mw-identity"><div><span>MY WORKSPACE</span><strong><?= esc($user['name']) ?></strong></div><div class="mw-code"><?= $user['role']==='member'?'รหัสบัญชี':'Affiliate ID' ?> <strong><?= esc($user['referral_code']) ?></strong><small>รหัสประจำตัว ออกโดยระบบ</small></div></div>
+<nav class="mw-nav" aria-label="เมนู Workspace ตามสิทธิ์"><?php foreach($workspaceMenus as $url=>$label): ?><a href="<?= site_url($url) ?>" <?= $workspacePath===$url||($url!=='workspace'&&str_starts_with($workspacePath,$url.'/'))?'aria-current="page"':'' ?>><?= esc($label) ?></a><?php endforeach ?></nav>
+<form class="mw-logout" method="post" action="<?= site_url('logout') ?>"><?= csrf_field() ?><button class="secondary small">ออกจากระบบ</button></form>

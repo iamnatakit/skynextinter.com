@@ -1,0 +1,22 @@
+.registration-types{border:1px solid #d5dfd4;border-radius:14px;padding:18px;margin:0;min-width:0}
+.registration-types legend{font-weight:600;color:#164630;padding:0 8px}
+.registration-types .check{padding:10px 0;align-items:flex-start}
+.registration-types input[type="radio"]{width:18px;height:18px;min-width:18px;min-height:18px;max-height:18px;flex:0 0 18px;margin:1px 0 0;padding:0;accent-color:#165b43}
+.registration-existing{background:#f1f6ee;border:1px solid #d5dfd4;border-radius:14px;padding:18px}
+.registration-existing[hidden],#new-membership-help[hidden]{display:none}
+.registration-existing small{color:#52645a;line-height:1.7}
+.registration-existing .check{align-items:flex-start;line-height:1.8}
+.registration-existing p{margin:0;font-size:14px;line-height:1.8}
+.auth-card.registration-card{width:100%;max-width:760px;margin:24px auto 60px;padding:36px 40px;border:1px solid #dce6da;border-top:5px solid #c9a34f;border-radius:22px;box-shadow:0 14px 40px #153f2910;font-family:'Prompt','Sarabun',Tahoma,sans-serif;color:#163e2d;font-size:18px;line-height:1.8}
+.registration-card h2{font-size:32px;line-height:1.5;margin:0 0 10px;font-weight:700;color:#15462f}
+.registration-card>p.muted{font-size:17px;color:#52665a;line-height:1.8}
+.registration-card .stack{gap:22px}.registration-card label{font-size:17px;font-weight:500;color:#234b35;gap:9px;line-height:1.7}
+.registration-card input:not([type="checkbox"]):not([type="radio"]),.registration-card select{font-family:inherit;font-size:18px;font-weight:400;min-height:54px;padding:13px 16px;border:1px solid #cbd9cd;border-radius:10px;background:#fff;color:#203c2c;width:100%;max-width:100%;box-shadow:inset 0 1px 3px #173b2104}
+.registration-card input::placeholder{color:#849086;font-size:16px}.registration-card input:focus,.registration-card select:focus{outline:3px solid #23925c22;border-color:#288356}
+.registration-card .notice{font-size:16px;line-height:1.85;padding:16px 18px;border-radius:12px}.registration-card .registration-required-note{font-size:15px;color:#6b5a32;margin:0}.registration-required{color:#a34e22}
+.registration-card .registration-types{padding:20px 22px;background:#fafcf7}.registration-card .registration-types legend{font-size:18px;font-weight:600}.registration-card .registration-types .check{padding:10px 0;font-size:17px;gap:12px;align-items:center}
+.registration-card .registration-types input[type="radio"]{width:21px;height:21px;min-width:21px;min-height:21px;max-height:21px;flex-basis:21px;margin:0}
+.registration-card .check{font-size:16px;line-height:1.85;font-weight:400;gap:12px}.registration-card input[type="checkbox"]{width:20px;height:20px;min-width:20px;min-height:20px;flex:0 0 20px;accent-color:#165b43;margin-top:4px}
+.registration-card .registration-existing p,.registration-card small{font-size:15px;line-height:1.8;color:#53675a}.registration-card .registration-existing{padding:22px}.registration-card .registration-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.registration-fields label{min-width:0}.registration-fields label:last-child{grid-column:1/-1}
+.registration-card button{font-family:inherit;font-size:19px;font-weight:600;min-height:56px;padding:14px 24px;border-radius:12px;background:linear-gradient(110deg,#154b33,#24744c);box-shadow:0 5px 14px #174b321a}
+@media(max-width:640px){.auth-card.registration-card{padding:26px 20px;border-radius:16px;margin-top:12px}.registration-card h2{font-size:27px}.registration-card .registration-fields{grid-template-columns:1fr;gap:20px}.registration-card .registration-types{padding:16px}.registration-card .registration-types .check{font-size:16px}.registration-card .registration-existing{padding:18px}.registration-card input:not([type="checkbox"]):not([type="radio"]),.registration-card select{font-size:17px}}

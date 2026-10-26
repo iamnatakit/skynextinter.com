@@ -1,0 +1,17 @@
+.sn-admin-user-group{margin:10px 0;border-top:1px solid #ffffff25;border-bottom:1px solid #ffffff25;padding:10px 0}
+.sn-admin-user-group summary{padding:10px 14px;color:#fff;font-size:16px;font-weight:600;cursor:pointer}
+.sidebar nav .sn-admin-user-group a{padding-left:24px}
+.sn-membership h2{margin-top:12px}.sn-membership p{font-size:16px;line-height:1.8}
+.sn-membership .stats{grid-template-columns:repeat(4,minmax(0,1fr))}
+.sn-membership-options{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}.sn-membership-options .panel{margin:12px 0}
+.sn-membership label,.sn-membership th,.sn-membership td{font-size:15px}
+.sn-membership th{white-space:normal}.sn-membership td{max-width:none}
+.sn-membership .table-scroll{border:1px solid #e1e8e2;border-radius:10px}
+.sn-membership .status-pill{display:inline-block;padding:5px 10px;border-radius:8px;background:#edf3e8;white-space:nowrap}
+.sn-membership .config-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.sn-membership .config-grid label{margin-bottom:14px}.sn-membership select[multiple]{min-height:190px}
+.sn-payment-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.sn-payment-qr{max-width:320px;margin-bottom:14px}.sn-payment-qr svg{display:block;width:100%;height:auto}
+.sn-membership .inline-form{margin:0}.sn-membership .inline-form button{white-space:nowrap}
+.sn-membership .sn-trial-extension{display:flex;align-items:flex-end;gap:8px;flex-wrap:wrap;margin:10px 0}.sn-membership .sn-trial-extension label{font-size:12px;margin:0}.sn-membership .sn-trial-extension input{display:block;width:96px;margin-top:4px;padding:7px}
+@media(max-width:760px){.sn-membership .stats{grid-template-columns:repeat(2,minmax(0,1fr))}.sn-membership .config-grid,.sn-payment-grid{grid-template-columns:1fr}.sn-admin-user-group{flex:none;min-width:230px}}
